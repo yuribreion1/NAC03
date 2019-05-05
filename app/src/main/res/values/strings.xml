@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NAC03</string>
+    <string name="titulo_st">Super Trunfo - Carros</string>
+    <string name="carros_potentes">Potentes</string>
+    <string name="carros_economicos">Economicos</string>
+    <string name="baratos">Baratos</string>
+    <string name="conceito">Conceito</string>
+    <string name="toyota_corolla">Toyota Corolla</string>
+</resources>
