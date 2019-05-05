@@ -18,6 +18,8 @@
         </activity>
         <activity android:name=".CarrosPotentesActivity" />
         <activity android:name=".CarrosEconomicosActivity" />
+        <activity android:name=".CarrosBaratosActivity" />
+        <activity android:name=".CarrosConceitoActivity" />
     </application>
 
 </manifest>

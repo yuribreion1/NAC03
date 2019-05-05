@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="carro_baratos_marca1">Caoa</string>
+    <string name="carro_baratos_nome1">Chery QQ Smile</string>
+    <string name="carro_baratos_ano1">2019</string>
+    <string name="carro_baratos_valor1">30000.00</string>
+
+    <string name="carro_baratos_marca2">Renault</string>
+    <string name="carro_baratos_nome2">Kwid Life</string>
+    <string name="carro_baratos_ano2">2018</string>
+    <string name="carro_baratos_valor2">45000.00</string>
+
+    <string name="carro_baratos_marca3">Chevrolet</string>
+    <string name="carro_baratos_nome3">Onix Joy</string>
+    <string name="carro_baratos_ano3">2018</string>
+    <string name="carro_baratos_valor3">51000.00</string>
+</resources>

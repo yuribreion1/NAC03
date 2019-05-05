@@ -1,0 +1,97 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#00BCD4"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Primeiro carro -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/carro_conceito_marca1"
+        android:textColor="#FFF"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"/>
+
+    <TextView style="@style/DadosCarro"
+        android:text="@string/carro_conceito_nome1"
+        />
+
+    <TextView style="@style/DadosCarro"
+        android:textStyle="bold"
+        android:padding="10sp"
+        android:text="@string/carro_conceito_valor1"
+        />
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/mais_detalhes" />
+
+    <!-- Segundo carro -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/carro_conceito_marca2"
+        android:textColor="#FFF"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"/>
+
+    <TextView style="@style/DadosCarro"
+        android:text="@string/carro_conceito_nome2"
+        />
+
+    <TextView style="@style/DadosCarro"
+        android:textStyle="bold"
+        android:padding="10sp"
+        android:text="@string/carro_conceito_valor2"
+        />
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/mais_detalhes" />
+
+    <!-- Terceito carro -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/carro_conceito_marca3"
+        android:textColor="#FFF"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"/>
+
+    <TextView style="@style/DadosCarro"
+        android:text="@string/carro_conceito_nome3"
+        />
+
+    <TextView style="@style/DadosCarro"
+        android:textStyle="bold"
+        android:padding="10sp"
+        android:text="@string/carro_conceito_valor3"
+        />
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/mais_detalhes" />
+
+
+
+
+
+</LinearLayout>
