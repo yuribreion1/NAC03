@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="carro_potente_marca1">Toyota</string>
+    <string name="carro_potente_nome1">Corolla 2.0 Altis</string>
+    <string name="carro_potente_ano1">2019</string>
+    <string name="carro_potente_valor1">89000.00</string>
+
+    <string name="carro_potente_marca2">Honda</string>
+    <string name="carro_potente_nome2">Civic SI 2.0</string>
+    <string name="carro_potente_ano2">2019</string>
+    <string name="carro_potente_valor2">150000.00</string>
+
+    <string name="carro_potente_marca3">Audi</string>
+    <string name="carro_potente_nome3">RS3 - Auto</string>
+    <string name="carro_potente_ano3">2019</string>
+    <string name="carro_potente_valor3">350000.00</string>
+</resources>

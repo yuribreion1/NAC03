@@ -40,14 +40,14 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/BotoesFiap"
+                style="@style/BotoesMenu"
                 android:text="@string/carros_potentes"
                 android:onClick="abrirCarrosPotentes"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/BotoesFiap"
+                style="@style/BotoesMenu"
                 android:text="@string/carros_economicos"
                 android:onClick="abrirCarrosEconomicos"/>
 
@@ -61,14 +61,14 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/BotoesFiap"
+                style="@style/BotoesMenu"
                 android:text="@string/baratos"
                 android:onClick="abrirCarrosBaratos"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/BotoesFiap"
+                style="@style/BotoesMenu"
                 android:text="@string/conceito"
                 android:onClick="abrirCarrosConceito"/>
 
