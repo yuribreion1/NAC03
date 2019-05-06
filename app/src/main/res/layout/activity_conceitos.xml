@@ -22,12 +22,6 @@
         android:text="@string/carro_conceito_nome1"
         />
 
-    <TextView style="@style/DadosCarro"
-        android:textStyle="bold"
-        android:padding="10sp"
-        android:text="@string/carro_conceito_valor1"
-        />
-
     <Button
         android:layout_width="200sp"
         android:layout_gravity="center"
@@ -50,12 +44,6 @@
         android:text="@string/carro_conceito_nome2"
         />
 
-    <TextView style="@style/DadosCarro"
-        android:textStyle="bold"
-        android:padding="10sp"
-        android:text="@string/carro_conceito_valor2"
-        />
-
     <Button
         android:layout_width="200sp"
         android:layout_gravity="center"
@@ -76,12 +64,6 @@
 
     <TextView style="@style/DadosCarro"
         android:text="@string/carro_conceito_nome3"
-        />
-
-    <TextView style="@style/DadosCarro"
-        android:textStyle="bold"
-        android:padding="10sp"
-        android:text="@string/carro_conceito_valor3"
         />
 
     <Button

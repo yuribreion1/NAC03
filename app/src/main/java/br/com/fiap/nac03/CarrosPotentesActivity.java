@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.view.View;
 
 public class CarrosPotentesActivity extends AppCompatActivity {
 
@@ -28,5 +29,13 @@ public class CarrosPotentesActivity extends AppCompatActivity {
             default:break;
         }
         return true;
+    }
+
+    public void FragmentCarro1(View view) {
+        getSupportFragmentManager()
+                .beginTransaction()
+                .replace(R.id.fragmentContainer, new CarrosPotentesFragment())
+                .addToBackStack(null)
+                .commit();
     }
 }

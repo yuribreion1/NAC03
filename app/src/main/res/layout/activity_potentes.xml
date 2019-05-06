@@ -21,16 +21,11 @@
         android:text="@string/carro_potente_nome1"
         />
 
-    <TextView style="@style/DadosCarro"
-        android:textStyle="bold"
-        android:padding="10sp"
-        android:text="@string/carro_potente_valor1"
-        />
-
     <Button
         android:layout_width="200sp"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
+        android:onClick="FragmentCarro1"
         android:text="@string/mais_detalhes" />
 
     <!-- Segundo carro -->
@@ -47,12 +42,6 @@
 
     <TextView style="@style/DadosCarro"
         android:text="@string/carro_potente_nome2"
-        />
-
-    <TextView style="@style/DadosCarro"
-        android:textStyle="bold"
-        android:padding="10sp"
-        android:text="@string/carro_potente_valor2"
         />
 
     <Button
@@ -77,16 +66,17 @@
         android:text="@string/carro_potente_nome3"
         />
 
-    <TextView style="@style/DadosCarro"
-        android:textStyle="bold"
-        android:padding="10sp"
-        android:text="@string/carro_potente_valor3"
-        />
-
     <Button
         android:layout_width="200sp"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
         android:text="@string/mais_detalhes" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragmentContainer"
+        android:layout_alignParentBottom="true"
+        />
 
 </LinearLayout>
