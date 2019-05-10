@@ -4,14 +4,20 @@
     <string name="carro_economico_nome1">Prius 1.8</string>
     <string name="carro_economico_ano1">2019</string>
     <string name="carro_economico_valor1">130000.00</string>
+    <string name="carro_economico_potencia1">150 HP</string>
+    <string name="carro_economico_tanque1">50 litros</string>
 
     <string name="carro_economico_marca2">Volkswagen</string>
     <string name="carro_economico_nome2">VW up! TSI 1.0</string>
     <string name="carro_economico_ano2">2018</string>
     <string name="carro_economico_valor2">30000.00</string>
+    <string name="carro_economico_potencia2">150 HP</string>
+    <string name="carro_economico_tanque2">42 litros</string>
 
     <string name="carro_economico_marca3">Fiat</string>
     <string name="carro_economico_nome3">Mobi 1.0</string>
     <string name="carro_economico_ano3">2017</string>
     <string name="carro_economico_valor3">35000.00</string>
+    <string name="carro_economico_potencia3">150 HP</string>
+    <string name="carro_economico_tanque3">57 litros</string>
 </resources>

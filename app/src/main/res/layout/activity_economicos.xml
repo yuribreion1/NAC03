@@ -28,6 +28,7 @@
         android:textColor="@color/colorPrimary"
         android:background="@drawable/corners_economicos"
         android:layout_height="wrap_content"
+        android:onClick="FragmentCarroEconomicos1"
         android:text="@string/mais_detalhes" />
 
     <!-- Segundo carro -->
@@ -52,6 +53,7 @@
         android:layout_marginTop="10sp"
         android:textColor="@color/colorPrimary"
         android:background="@drawable/corners_economicos"
+        android:onClick="FragmentCarroEconomicos2"
         android:layout_height="wrap_content"
         android:text="@string/mais_detalhes" />
 
@@ -75,9 +77,17 @@
         android:layout_width="200sp"
         android:layout_gravity="center"
         android:layout_marginTop="10sp"
+        android:onClick="FragmentCarroEconomicos3"
         android:textColor="@color/colorPrimary"
         android:background="@drawable/corners_economicos"
         android:layout_height="wrap_content"
         android:text="@string/mais_detalhes" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragmentContainerEconomicos"
+        android:layout_alignParentBottom="true"
+        />
 
 </LinearLayout>

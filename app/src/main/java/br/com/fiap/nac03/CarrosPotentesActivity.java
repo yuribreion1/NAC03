@@ -31,26 +31,26 @@ public class CarrosPotentesActivity extends AppCompatActivity {
         return true;
     }
 
-    public void FragmentCarro1(View view) {
+    public void FragmentCarroPotentes1(View view) {
         getSupportFragmentManager()
                 .beginTransaction()
-                .replace(R.id.fragmentContainer, new CarrosPotentesFragment1())
+                .replace(R.id.fragmentContainerPotentes, new CarrosPotentesFragment1())
                 .addToBackStack(null)
                 .commit();
     }
 
-    public void FragmentCarro2(View view) {
+    public void FragmentCarroPotentes2(View view) {
         getSupportFragmentManager()
                 .beginTransaction()
-                .replace(R.id.fragmentContainer, new CarrosPotentesFragment2())
+                .replace(R.id.fragmentContainerPotentes, new CarrosPotentesFragment2())
                 .addToBackStack(null)
                 .commit();
     }
 
-    public void FragmentCarro3(View view) {
+    public void FragmentCarroPotentes3(View view) {
         getSupportFragmentManager()
                 .beginTransaction()
-                .replace(R.id.fragmentContainer, new CarrosPotentesFragment3())
+                .replace(R.id.fragmentContainerPotentes, new CarrosPotentesFragment3())
                 .addToBackStack(null)
                 .commit();
     }

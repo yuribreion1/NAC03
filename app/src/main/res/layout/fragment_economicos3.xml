@@ -1,0 +1,22 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#073D12"
+    android:layout_gravity="bottom"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView style="@style/DadosCarro"
+        android:text="@string/carro_economico_valor3"
+        android:textStyle="bold"
+        />
+
+    <TextView style="@style/DadosCarro"
+        android:text="@string/carro_economico_potencia3"
+        />
+
+    <TextView style="@style/DadosCarro"
+        android:text="@string/carro_economico_tanque3"
+        />
+
+</LinearLayout>
