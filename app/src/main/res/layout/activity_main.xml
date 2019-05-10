@@ -53,29 +53,6 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/AgrupadorBotoes">
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/BotoesMenu"
-                android:text="@string/baratos"
-                android:onClick="abrirCarrosBaratos"/>
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/BotoesMenu"
-                android:text="@string/conceito"
-                android:onClick="abrirCarrosConceito"/>
-
-        </LinearLayout>
-
-
-
     </LinearLayout>
 
 </FrameLayout>

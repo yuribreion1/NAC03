@@ -22,14 +22,4 @@ public class MainActivity extends AppCompatActivity {
         Intent it = new Intent(this, CarrosEconomicosActivity.class);
         startActivity(it);
     }
-
-    public void abrirCarrosBaratos(View view) {
-        Intent it = new Intent(this, CarrosBaratosActivity.class);
-        startActivity(it);
-    }
-
-    public void abrirCarrosConceito(View view) {
-        Intent it = new Intent(this, CarrosConceitoActivity.class);
-        startActivity(it);
-    }
 }

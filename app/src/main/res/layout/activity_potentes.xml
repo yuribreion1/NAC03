@@ -25,6 +25,9 @@
         android:layout_width="200sp"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/corners_potentes"
         android:onClick="FragmentCarro1"
         android:text="@string/mais_detalhes" />
 
@@ -47,7 +50,11 @@
     <Button
         android:layout_width="200sp"
         android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/corners_potentes"
         android:layout_height="wrap_content"
+        android:onClick="FragmentCarro2"
         android:text="@string/mais_detalhes" />
 
     <!-- Terceito carro -->
@@ -69,7 +76,11 @@
     <Button
         android:layout_width="200sp"
         android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/corners_potentes"
         android:layout_height="wrap_content"
+        android:onClick="FragmentCarro3"
         android:text="@string/mais_detalhes" />
 
     <FrameLayout
