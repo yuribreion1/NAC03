@@ -16,7 +16,7 @@ public class CarrosEconomicosActivity extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
-        getSupportActionBar().setTitle("Carros potentes");
+        getSupportActionBar().setTitle("Carros economicos");
     }
 
     @Override
